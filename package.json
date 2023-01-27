@@ -19,6 +19,14 @@
         "command": "superlink.createHyperLink",
         "title": "Create Hyperlink"
       }
+    ],
+    "keybindings": [
+      {
+        "command": "superlink.createHyperLink",
+        "key": "ctrl+l",
+        "mac": "cmd+l",
+        "when": "editorTextFocus"
+      }
     ]
   },
   "scripts": {

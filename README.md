@@ -19,32 +19,13 @@ Superlink is a VS Code extension that allows you to quickly create hyperlinks in
 2. Copy a URL to your clipboard
 3. Run the command `superlink.createHyperLink`
 
-## Assign a keybinding
-
-You can assign a keybinding to the `superlink.createHyperLink` command in the `keybindings.json` file in your VS Code configuration.
-
-To open the `keybindings.json` file, you can use the keyboard shortcut `Ctrl+K Ctrl+S` (Windows, Linux) or `Cmd+K Cmd+S` (macOS).
-
-Here's an example of how you can assign the keybinding `Ctrl+Shift+H` (Windows, Linux) or `Cmd+Shift+H` (macOS) to the `superlink.createHyperLink` command:
-
-```json
-[
-  {
-    "key": "ctrl+shift+l",
-    "command": "superlink.createHyperLink",
-    "when": "editorTextFocus"
-  }
-]
-```
-
 ## Extension Settings
 
 This extension doesn't have any settings.
 
 ## Known Issues
 
-- URL is too long, the maximum URL length is 70 characters.
-- No active editor or selection.
+No known issues.
 
 ## Release Notes
 
@@ -62,5 +43,4 @@ This extension is open-sourced software licensed under the [MIT license](https:/
 
 ## Author
 
-[Jermaine Craig](https://jermainecraig.com)
-[Chat GPT](https://chat.openai.com/chat)
+[Jermaine Craig](https://jermainecraig.com) in collaboration with [Chat GPT](https://chat.openai.com/chat).

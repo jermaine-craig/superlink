@@ -2,7 +2,7 @@
   "name": "superlink",
   "displayName": "Superlink",
   "description": "A super fast hyperlink tool",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/jermaine-craig/superlink"

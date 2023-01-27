@@ -6,7 +6,7 @@ Superlink is a VS Code extension that allows you to quickly create hyperlinks in
 
 - Select some text in your HTML document
 - Copy a URL to your clipboard
-- Run the command `superlink.createHyperLink`
+- `CMD+L` (Mac) / `CTRL+L` (Win) or run the command `superlink.createHyperLink`
 - The selected text will be replaced with a hyperlink using the copied URL
 
 ## Requirements
@@ -17,7 +17,7 @@ Superlink is a VS Code extension that allows you to quickly create hyperlinks in
 
 1. Select some text in your HTML document
 2. Copy a URL to your clipboard
-3. Run the command `superlink.createHyperLink`
+3. `CMD+L` (Mac) / `CTRL+L` (Win) or run the command `superlink.createHyperLink`
 
 ## Extension Settings
 

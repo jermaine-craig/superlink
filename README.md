@@ -17,4 +17,4 @@ If you find any issues or have any suggestions for improvements, please open an 
 
 ## Author
 
-[Jermaine Craig](https://jermainecraig.com) in collaboration with [Chat GPT](https://chat.openai.com/chat).
+[Jermaine Craig](https://jermainecraig.com)

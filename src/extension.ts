@@ -22,16 +22,10 @@ export function activate(context: vscode.ExtensionContext) {
             vscode.window.activeTextEditor &&
             vscode.window.activeTextEditor.selection
           ) {
-            if (url.length < 70) {
-              editBuilder.replace(
-                vscode.window.activeTextEditor.selection,
-                hyperlink
-              )
-            } else {
-              vscode.window.showErrorMessage(
-                "URL is too long (" + url.length + " chars)"
-              )
-            }
+            editBuilder.replace(
+              vscode.window.activeTextEditor.selection,
+              hyperlink
+            )
             return
           } else {
             vscode.window.showErrorMessage("No active editor or selection.")
